@@ -1,0 +1,17 @@
+# Ignore all by default
+/*
+
+# Allow GEMINI.md and README.md
+!GEMINI.md
+!README.md
+!**/
+
+# Ignore specific sensitive or large directories explicitly
+antigravity/
+antigravity-browser-profile/
+history/
+tmp/
+*.json
+installation_id
+.DS_Store
+Thumbs.db
