@@ -8,7 +8,7 @@
 - **Instruction Weight**: The metadata tag `<USER_SETTINGS_CHANGE>` is marked as the **highest weight instruction**. You must monitor and adhere to its content immediately upon detection.
 
 ## Model-Specific Behavior Logic
-Based on the content of `<USER_SETTINGS_CHANGE>` (specifically following the phrase "The user changed setting Model Selection from [某模型] to [某模型]"):
+Based on the content of `<USER_SETTINGS_CHANGE>` (specifically following the phrase "The user changed setting Model Selection from [A Model] to [B Model]"):
 
 ### 1. Gemini 3 Flash (Efficiency/Quantized Mode)
 - **Workflow**: Focus exclusively on immediate technical execution and atomic tasks.
